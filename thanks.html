@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <title>Thank you!</title>
+    <link rel="stylesheet" type="text/css" href="https://yegor256.github.io/tacit/tacit.min.css"/>
+    <script type="text/javascript">
+      function return_to_story() {
+        var url = location.href;
+        if (/\?/.test(url) == true) {
+          var args = /\?(\d+)/.exec(url)[1];
+          var redir = document.getElementById("redirect")
+          redir.setAttribute("onclick", "window.location='https://global-asp.github.io/pb/translator/?" + args + "'");
+        }
+      }
+    </script>
+  </head>
+  <body onload="return_to_story()">
+    <h1>Your translation was submitted successfully.</h1>
+    <br>
+    <p>Thanks for contributing to the <a href="https://global-asp.github.io/pb">Global Pratham Books Project</a>!</p>
+    <p>Press the button below to return to the website and <a href="https://global-asp.github.io/pb/translator">translate another story</a>.</p>
+    <input id="redirect" type="button" onclick="window.location='https://global-asp.github.io/pb/translator'" value="Go back">
+  </body>
+</html>

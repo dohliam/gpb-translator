@@ -8,7 +8,7 @@ You can visit the live Translator tool [here](https://global-asp.github.io/pb/tr
 
 ## Usage
 
-To begin translating stories, just click on the "Translate!" button at the bottom of the page. This will open up a story from the [African Storybook Project](http://africanstorybook.org/) collection, with empty space on the right for you to enter your translation.
+To begin translating stories, just click on the "Translate!" button at the bottom of the page. This will open up a story from the [Pratham Books](http://prathambooks.org/) collection, with empty space on the right for you to enter your translation.
 
 Make sure to enter your name and the language you are translating into at the top of the page. Your work will be released under the same Creative Commons license as the original story, and you will be credited for attribution using the name you select here. You can edit either field at any time, e.g. if you want to change the way you are attributed or translate into a different language.
 
